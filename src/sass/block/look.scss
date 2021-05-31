@@ -1,0 +1,52 @@
+
+.look__title {
+    margin-bottom: 30px;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1;
+
+    span {
+        display: block;
+    }
+}
+
+.look__list {
+    max-width: 400px;
+}
+
+.look__item {
+    display: flex;
+    align-items: center;
+    min-height: 86px;
+    padding-left: 110px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-position: left top;
+    background-repeat: no-repeat;
+
+    & + & {
+        margin-top: 15px;
+    }
+
+    &:nth-child(1) {
+        background-image: url("../media/look/icon-1.png");
+    }
+
+    &:nth-child(2) {
+        background-image: url("../media/look/icon-2.png");
+    }
+}
+
+@media (max-width: 1024px) {
+    .look__title {
+        font-size: 44px;
+    }
+}
+
+@media (max-width: 768px) {
+    .look__title {
+        font-size: 36px;
+    }
+}
