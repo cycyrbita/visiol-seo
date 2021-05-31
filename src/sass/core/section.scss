@@ -15,6 +15,11 @@
         background-image: url("../media/section/look.jpg");
         background-position: center center;
     }
+
+    &_order {
+        background-image: url("../media/section/face.jpg");
+        background-position: center bottom;
+    }
 }
 
 .section__title {
@@ -58,7 +63,13 @@
 
 @media (max-width: 480px) {
     .section {
-        
+        &_face {
+            background-image: url("../media/section/face-480.jpg");
+        }
+
+        &_order {
+            background-image: url("../media/section/face-480.jpg");
+        }
     }
 
     .section__title {
