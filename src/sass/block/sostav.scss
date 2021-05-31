@@ -1,0 +1,109 @@
+.sostav__title {
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+
+    mark {
+        display: block;
+        color: #54C2C2;
+    }
+}
+
+.sostav__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sostav__item {
+    display: flex;
+    flex-direction: column;
+    width: calc(25% - 20px);
+    padding: 200px 20px 20px 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background-size: cover;
+    background-position: center bottom;
+    background-color: #000;
+
+    &:nth-child(1) {
+        background-image: url('../media/sostav/bg-1.jpg');
+    }
+
+    &:nth-child(2) {
+        background-image: url('../media/sostav/bg-2.jpg');
+    }
+
+    &:nth-child(3) {
+        background-image: url('../media/sostav/bg-3.jpg');
+    }
+
+    &:nth-child(4) {
+        background-image: url('../media/sostav/bg-4.jpg');
+    }
+}
+
+.sostav__name {
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+.sostav__description {
+    color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .sostav__list {
+        justify-content: center;
+    }
+
+    .sostav__item {
+        width: calc(50% - 20px);
+        max-width: 227px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sostav__list {
+        margin-right: -7.5px;
+        margin-left: -7.5px;
+    }
+
+    .sostav__item {
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-bottom: 15px;
+        margin-right: 7.5px;
+        margin-left: 7.5px;
+    }
+
+    .sostav__title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sostav__list {
+        margin: 0;
+        justify-content: center;
+    }
+
+    .sostav__item {
+        width: 100%;
+        max-width: 227px;
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .sostav__title {
+        font-size: 28px;
+    }
+}
