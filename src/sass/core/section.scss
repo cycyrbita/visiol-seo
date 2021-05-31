@@ -20,6 +20,23 @@
         background-image: url("../media/section/face.jpg");
         background-position: center bottom;
     }
+
+    &_pay {
+        background-color: #E9F7F7;
+    }
+
+    &_warning {
+        background: linear-gradient(90.64deg, #207FB3 0%, #10E89F 101.39%);
+    }
+
+    &_courier {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        background-color: #F0F0F0;
+        background: url("../media/courier/human.png") calc(50% - 260px) top, linear-gradient(90.64deg, #207FB3 0%, #10E89F 101.39%);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
 }
 
 .section__title {
@@ -39,6 +56,11 @@
         &_look {
             background-image: url("../media/section/look-1024.jpg");
         }
+
+        &_courier {
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
     }
 
     .section__title {
@@ -53,6 +75,15 @@
 
         &_look {
             background-image: url("../media/section/look-768.jpg");
+        }
+
+        &_courier {
+            padding-top: 60px;
+            padding-bottom: 60px;
+            background-color: #F0F0F0;
+            background: url("../media/courier/human.png") calc(50% - 225px) top, linear-gradient(90.64deg, #207FB3 0%, #10E89F 101.39%);
+            background-repeat: no-repeat;
+            background-size: contain;
         }
     }
 
@@ -69,6 +100,13 @@
 
         &_order {
             background-image: url("../media/section/face-480.jpg");
+        }
+
+        &_courier {
+            padding-bottom: 300px;
+            background-position: center bottom;
+            background-color: #F0F0F0;
+            background: url("../media/courier/human.png") center bottom / 280px no-repeat, linear-gradient(90.64deg, #207FB3 0%, #10E89F 101.39%);
         }
     }
 
