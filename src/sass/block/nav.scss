@@ -41,22 +41,22 @@
     &_header {
         &.active {
             font-weight: 700;
-            color: #1E5F4B;
+            color: #54C2C2;
         }
 
         &:hover {
-            background-color: #46c39d;
+            background-color: rgba(255, 255, 255, .2);
         }
     }
 
     &_footer {
         &.active {
             font-weight: 700;
-            color: #7E983C;
+            color: #54C2C2;
         }
 
         &:hover {
-            background-color: #246b55;
+            background-color: rgba(255, 255, 255, .2);
         }
     }
 }
@@ -101,7 +101,7 @@
         z-index: 2;
         flex-direction: column;
         transform: translateX(100%);
-        background-color: #39B992;
+        background-color: #151515;
         transition: 0.3s transform;
 
         &.active {
