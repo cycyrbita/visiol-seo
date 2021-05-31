@@ -6,7 +6,9 @@
     background-repeat: no-repeat;
 
     &_face {
-        background-color: #F2F2E8;
+        padding-bottom: 145px;
+        background-image: url("../media/section/face.jpg");
+        background-position: center bottom;
     }
 
     &_sostav {

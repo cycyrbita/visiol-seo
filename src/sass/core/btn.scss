@@ -5,26 +5,24 @@
     position: relative;
     z-index: 1;
     display: inline-block;
-    padding: 20px 46px;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-    background-color: transparent;
-    transition: 0.3s color;
-    background: linear-gradient(180deg, #FF9502 0%, #FF0C1C 100%);
+    background: linear-gradient(92.44deg, #0FED9D 0.3%, #2174B4 104.57%);
+    box-shadow: 11px 12px 15px rgba(60, 92, 111, 0.32);
     border-radius: 60px;
-    opacity: 0.9;
+    cursor: pointer;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 15px;
+    opacity: 0.9;
+    padding: 25px 55px;
 
     &:hover {
         opacity: 1;
         color: #fff;
         text-decoration: none;
         transform: scale(.98);
+        background: linear-gradient(92.44deg, #2174B4 0.3%, #0FED9D 104.57%);
     }
 }
 
