@@ -45,21 +45,7 @@
 }
 
 .blog__btn {
-    display: block;
-    padding: 20px 53px;
-    font-size: 22px;
-    text-transform: uppercase;
-    color: #fff;
-    letter-spacing: 0.11em;
-    background: linear-gradient(90deg, #56AF94 3.2%, #00AC78 100%);
-    opacity: 0.9;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-
-    &:hover {
-        opacity: 1;
-    }
+    width: 100%;
 }
 
 @media (max-width: 1024px) {
