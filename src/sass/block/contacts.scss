@@ -1,76 +1,92 @@
 
 .contacts {
     position: relative;
-    padding: 90px 90px 90px 50%;
-    background-color: #fff;
-    border: 2px solid #1E5F4B;
 }
 
 .contacts__media {
     position: absolute;
-    left: -50px;
-    bottom: -122px;
+    right: 60px;
+    bottom: -80px;
 }
 
 .contacts__title {
-    margin-bottom: 10px;
-    font-size: 64px;
-    color: #7E983C;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 48px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
+}
+
+.contacts__body {
+    padding: 120px 60px;
+    background: linear-gradient(90.64deg, #207FB3 0%, #10E89F 101.39%);
 }
 
 .contacts__subtitle {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 18px;
-    color: #4E4E4E;
-    text-transform: uppercase;
+    font-weight: 300;
+    color: #fff;
+    max-width: 500px;
 }
 
 .contacts__description {
-    padding-left: 30px;
+    max-width: 500px;
     font-size: 18px;
     font-weight: 700;
-    color: #39B992;
-    border-left: 18px solid #39B992;
+    color: #fff;
 }
 
 @media (max-width: 1024px) {
-    .contacts {
-        margin-top: 300px;
-        padding: 50px;
+    .contacts__body {
+        padding: 60px 50% 60px 30px;
     }
 
     .contacts__media {
-        bottom: calc(100% + 2px);
-        left: 50%;
-        transform: translateX(-50%);
-        width: 325px;
+        max-width: 270px;
+        right: 30px;
+        bottom: -40px;
     }
 }
 
 @media (max-width: 768px) {
     .contacts__title {
-        font-size: 44px;
+        margin-bottom: 30px;
+    }
+
+    .contacts__body {
+        padding: 60px 125px 60px 30px;
+    }
+
+    .contacts__media {
+        bottom: -30px;
+        right: 0;
+        max-width: 150px;
+    }
+
+    .table__btn {
+        font-size: 16px;
+        padding: 20px 55px;
     }
 }
 
 @media (max-width: 480px) {
     .contacts {
-        padding: 30px;
+        text-align: center;
+    }
+
+    .contacts__body {
+        padding: 30px 15px;
+        margin-bottom: 200px;
+    }
+
+    .contacts__media {
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .contacts__title {
-        font-size: 32px;
-    }
-
-    .contacts__subtitle {
-        font-size: 16px;
-    }
-
-    .contacts__description {
-        padding-left: 15px;
-        font-size: 16px;
-        border-width: 10px;
+        font-size: 36px;
     }
 }
