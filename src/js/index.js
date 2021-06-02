@@ -62,10 +62,7 @@ $(document).ready(function () {
             $('body, html').removeClass('overflow');
 		}
 	});
-
-    $('[name=phone]').bind('change keyup input click', function () {
-        if (this.value.match(/[^0-9]/g)) {
-            this.value = this.value.replace(/[^0-9]/g, '');
-        }
-    });
+    $("[name=phone].mx").val("52").mask("529999999999");
+    $("[name=phone].cl").val("56").mask("569999999999");
+    $("[name=phone].co").val("57").mask("579999999999");
 });
